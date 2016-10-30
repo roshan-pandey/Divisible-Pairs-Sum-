@@ -1,5 +1,5 @@
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 int main()
 {
   int a[10], n, k, i, sum, j, count=0;
@@ -46,6 +46,6 @@ int main()
 	else
 		printf("\n-----------invalid input----------\n");
   }
-  //getch();
+  getch();
     return 0;
 }
